@@ -24,7 +24,7 @@ jobs:
           node-version: '20.x'
 
       - name: npm install, build, and test
-        working-directory: ./berr2243-week04
+        working-directory: ./week7
         run: |
           npm install
           npm run build --if-present
